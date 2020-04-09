@@ -12,3 +12,89 @@ p {
   /*visibility: hidden;*/
   display: none;
 }
+
+body {
+  /*width: 100px;*/
+}
+
+#box-01 {
+  background-color: hsla(60,100%,60%,0.85);
+  width: 150px;
+  /*width: 100%;*/
+  
+}
+
+#box-02 {
+  background-color: hsla(84,84%,56%,0.85);
+  width: 150px;
+  /*width: 100%;*/
+  padding: 25px;
+  border: 25px solid black;
+  margin: 25px;
+  box-sizing: border-box;
+}
+
+#box-03 {
+  background-color: hsla(60,100%,60%,0.85);
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+
+#box-04 {
+  box-sizing: border-box;
+  height: 100px;
+  border: 5px solid black;
+  padding: 10px;
+}
+
+#box-05, #box-06 {
+  float: left;
+  box-sizing: border-box; 
+}
+
+#box-05 {
+  background-color: hsla(60,100%,60%,0.85);
+  width: 50%; 
+}
+
+#box-06 {
+  background-color: hsla(84,84%,56%,0.85);
+  width: 50%;
+  padding: 25px;
+  /*margin.25px;*/
+  border: 25px solid black;
+  
+}
+
+#box-07, #box-08, #box-09, #box-10 {
+  display: none;
+}
+
+/*#box-07, #box-08 {
+  display: inline-block;
+}
+
+#box-07 {
+  background-color: hsla(60,100%,60%,0.85);
+  width: 49%;
+}
+
+#box-08 {
+  background-color: hsla(84,84%,56%,0.85);
+  width: 49%;
+}
+
+#box-09, #box-10 {
+  display: inline-block;
+}
+
+#box-09 {
+  background-color: hsla(60,100%,60%,0.85);
+  width: 50%;
+}
+
+#box-10 {
+  background-color: hsla(84,84%,56%,0.85);
+  width: 50%;
+}*/
