@@ -14,6 +14,7 @@ p {
 }
 
 body {
+  background-color: #333;
   /*width: 100px;*/
 }
 
@@ -67,7 +68,7 @@ body {
   
 }
 
-#box-07, #box-08, #box-09, #box-10 {
+a, #box-01, #box-02, #box-03, #box-04, #box-05, #box-06, #box-07, #box-08, #box-09, #box-10 {
   display: none;
 }
 
@@ -98,3 +99,71 @@ body {
   background-color: hsla(84,84%,56%,0.85);
   width: 50%;
 }*/
+
+.box {
+  position: absolute;
+  /*width: 100px;
+  height: 100px;*/
+  /*position: fixed;
+  top: calc(100% - 100px);
+  right: 0;*/
+  /*z-index: 5;*/
+}
+
+.container {
+  width: 300px;
+  height: calc(100vh - 40px);
+  margin: 20px auto;
+  background-color: #fff;
+  position: relative;
+}
+
+#box-11 {
+  background-color: hsla(60,100%,60%,0.85);
+  height: 100px;
+  left: 0;
+  right: 0;
+  /*z-index: 4;*/
+}
+
+#box-12 {
+  background-color: hsla(84,84%,56%,0.85);
+  top: 100px;
+  left: 0;
+  width: 70%;
+  height: 500px;
+  /*top: 0;
+  right: 0;
+  position: absolute;*/
+  /*width: 200px;
+  height: 200px;
+  z-index: 3;
+  position: relative;
+  top: 10px;
+  left: 20px;*/
+}
+
+#box-13 {
+  background-color: hsla(332,69%,51%,0.85);
+  top: 100px;
+  right: 0;
+  width: 30%;
+  height: 450px;
+  /*bottom: 0;
+  right: 0;
+  position: absolute;*/
+  /*width: 300px;
+  height: 300px;
+  z-index: 2;*/
+}
+
+#box-14 {
+  background-color: hsla(279,60%,44%,0.85);
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  /*position: absolute;*/
+  /*width: 400px;
+  height: 400px;
+  z-index: 1;*/
+}
